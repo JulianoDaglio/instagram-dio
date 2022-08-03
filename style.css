@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(240, 226, 226);
     margin: 0;
     padding: 0;
     display: flex;
@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #f1eaea;;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
@@ -60,7 +60,7 @@ body {
     min-height: 19rem;
 }
 
-.instagram-logo {
+.logos {
     height: 3rem;
 }
 
@@ -76,24 +76,25 @@ body {
     height: 6rem;
 }
 
-.instagram-login {
-    background-color: #0095f6;
-    color: #ffffff;
+.continuar {
+    background-color: #0039f6;
+    color: #dec5ff;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
-    color: #0095f6;
+.sair {
+    color: #0400f6;
     margin-top: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgb(8, 0, 0);
+    
 }
 
-.link-blue {
-    color: #0095f6;
+.links {
+    color: #0400f6;
 }
 
 .get-the-app {
@@ -138,7 +139,7 @@ body {
 
 @media (max-width: 650px) {
     body {
-        background-color: #ffffff;
+        background-color: rgb(240, 226, 226);
     }
 
     .instagram-wrapper {
